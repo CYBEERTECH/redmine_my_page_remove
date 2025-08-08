@@ -1,4 +1,4 @@
-## 🏭 Redmine My Page Remove Plugin
+## 🏭 Redmine My Page Remove Plugin for version 6.0.0
 
 ## 📌 Description
 
