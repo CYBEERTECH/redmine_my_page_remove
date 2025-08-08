@@ -33,24 +33,28 @@ This Redmine plugin provides a streamlined experience by removing the **My page*
 
    ```bash
    cd /opt/redmine/plugins
-   git clone https://github.com/CYBEERTECH/redmine_my_page_remove.git```
+   git clone https://github.com/CYBEERTECH/redmine_my_page_remove.git
+   ```
 
 2. **Install dependencies**
   ```bash
    cd /opt/redmine 
-   bundle install```
+   bundle install
+  ```
 
 3. **Migrate plugins**
   ```bash
    cd /opt/redmine
-   bundle exec rake redmine:plugins:migrate RAILS_ENV=production```
+   bundle exec rake redmine:plugins:migrate RAILS_ENV=production
+  ```
 
 4. **Restart the the environment**
    Reminder: Puma and Nginx were used for this particular environment.
   ```bash
    cd /opt/redmine
    RAILS_ENV=production bundle exec puma -C config/puma.rb >/dev/null 2>&1 &
-   sudo systemctl restart nginx```
+   sudo systemctl restart nginx
+  ```
 
 
 📁 Directory Structure
